@@ -1,0 +1,10 @@
+.Footer{
+    grid-area: ft;
+    
+    background-color: #252f31;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    padding-top: 15px;
+    color:#ef494e ;
+}

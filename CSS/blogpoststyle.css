@@ -1,0 +1,221 @@
+body {
+    /*background-image: url("maia.jpg");
+    background-size: cover;*/
+    background-color: #FFF;
+}
+
+.Container {
+    display: flex;
+    width: auto;
+    /*text-align: center;*/
+    /*border-radius: 20px;*/
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "hd" "main" "sd" "ft";
+    /*border: solid 2px #ffff00;*/
+    grid-gap: 20px;
+    margin: auto;
+    height: auto;
+}
+
+.box {
+    /*border-radius: 20px;*/
+    /*padding: 20px;*/
+    background-color: white;
+}
+
+.navbar .H2-Class .Span-Title {
+    color: #26e071;
+}
+
+.navbar .H2-Class {
+    float: left;
+    padding-left: 15%;
+}
+
+.navbar {
+    grid-area: hd;
+    /*font-size: 30px;*/
+    background-color: #252f31;
+    color: #FFF;
+    padding-right: 15%;
+    border: solid #26e071;
+}
+
+.navbar .Ul-Main-List {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+}
+
+.navbar .Ul-Main-List .Li-Point-of-List {
+    float: right;
+    padding: 10px;
+}
+
+.Body {
+    grid-area: main;
+}
+
+.Footer {
+    grid-area: ft;
+    background-color: #252f31;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    color: #26e071;
+}
+
+@media(min-width:800px) {
+    .Container {
+        width: auto;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "hd hd hd hd hd hd hd hd" "main main main main main main main main " "ft ft ft ft ft ft ft ft";
+        /*border: solid 2px yellow;*/
+    }
+}
+
+.slider {
+    width: 1280x;
+    height: 400px;
+    background-image: url(../Images/intro.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    color: #FFF;
+}
+
+.slider .H2-Class {
+    margin: auto;
+    width: 200px;
+    border-top: 3px solid #FFF;
+    border-bottom: 3px solid #FFF;
+    background-color: black;
+}
+
+.down {
+    padding-bottom: 150px;
+}
+
+.down2 {
+    padding-bottom: 10px;
+}
+
+.navbar .Ul-Main-List .Li-Point-of-List .A-for-Link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.Body {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "artical1" "artical2" "artical3" "artical4" "artical5" "artical6" "artical7" "artical8";
+    grid-gap: 25px;
+}
+
+.artical1 {
+    grid-area: artical1;
+    background-color: #f2f2f2;
+}
+
+.artical2 {
+    grid-area: artical2;
+    background-color: #f2f2f2;
+}
+
+.artical3 {
+    grid-area: artical3;
+    background-color: #f2f2f2;
+}
+
+.artical4 {
+    grid-area: artical4;
+    background-color: #f2f2f2;
+}
+
+.artical5 {
+    grid-area: artical5;
+    background-color: #f2f2f2;
+}
+
+.artical6 {
+    grid-area: artical6;
+    background-color: #f2f2f2;
+}
+
+.artical7 {
+    grid-area: artical7;
+    background-color: #f2f2f2;
+}
+
+.artical8 {
+    grid-area: artical8;
+    background-color: #f2f2f2;
+}
+
+@media(min-width:800px) {
+    .Body {
+        width: auto;
+        height: 2200px;
+        margin: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: "artical1 artical2" "artical3 artical4" "artical5 artical6" "artical7 artical8";
+        /*border: solid 2px yellow;*/
+        grid-gap: 25px;
+        overflow: hidden;
+    }
+}
+
+.Contentpic {
+    display: grid;
+    grid-template-rows: 400px;
+    grid-gap: 15px;
+    grid-template-areas: "img" "artical000";
+}
+
+.img {
+    background-image: url(../Images/Maia3.jpg);
+    background-size: cover;
+    grid-area: img;
+}
+
+.contimg {
+    grid-area: artical000;
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+p {
+    padding-left: 10px;
+}
+
+h3 a {
+    text-decoration: none;
+    color: #252f31;
+}
+
+.Sliderbarpic {
+    display: grid;
+    grid-template-rows: 200px auto;
+    grid-gap: 15px;
+    grid-template-areas: "img" "artical00";
+}
+
+.Sliderbarimg {
+    grid-area: artical00;
+}
+
+blockquote {
+    padding-left: 11%;
+    padding-left: 40%;
+}

@@ -1,0 +1,6 @@
+.Slidbar{
+    grid-area: sd;
+    border: solid  #c5272c;
+    margin-right:10px ;
+    border-radius: 10px;
+}
